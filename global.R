@@ -50,5 +50,13 @@ emil[, alder := time_length(difftime(dato, foedselsdag), "years")]
 
 dat <- rbind(emil, lauge)
 
+StatLab_colors <- c(
+  `dark grey` = "#64555C",
+  `clay` = "#B7A9A6",
+  `blue` = "#2D8C9B",
+  `green` = "#9AD2AD",
+  `yellow` = "#FCB550",
+  `pink` = "#E05C90",
+  `light pink` = "#F49DA8")
 
 cols <- c("Emil" = as.character(StatLab_colors["blue"]), "Lauge" = as.character(StatLab_colors["clay"]))
